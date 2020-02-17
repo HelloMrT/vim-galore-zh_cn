@@ -1,50 +1,51 @@
 ## 插件列表
 
-#### [Colorschemes](#colorschemes-1)
 
-#### [By topic](#by-topic-1)
+<!-- vim-markdown-toc GFM -->
 
-- [Alignment](#alignment)
-- [Building and linting](#building-and-linting)
-- [Code completion](#code-completion)
-- [Commenters](#commenters)
-- [Cycle](#cycle)
-- [Delimiter](#delimiter)
-- [Fuzzy finders](#fuzzy-finders)
-- [Grep tools](#grep-tools)
-- [Indent](#indent)
-- [Misc](#misc)
-- [Navigation](#navigation)
-- [Plugin managers](#plugin-managers)
-- [Snippets](#snippets)
-- [Statusline](#statusline)
-- [Surround](#surround)
-- [Taking notes](#taking-notes)
-- [Testing](#testing)
-- [Text objects](#text-objects)
-- [Tmux](#tmux)
-- [Undo history](#undo-history)
-- [Version control](#version-control)
-- [Writing](#writing)
+- [颜色主题](#颜色主题)
+- [按功能分类](#按功能分类)
+  - [文本对齐](#文本对齐)
+  - [语法检查](#语法检查)
+  - [代码补全](#代码补全)
+  - [Cycle](#cycle)
+  - [代码注释](#代码注释)
+  - [自动补全括号](#自动补全括号)
+  - [模糊搜索](#模糊搜索)
+  - [文本搜索](#文本搜索)
+  - [代码对齐线](#代码对齐线)
+  - [Navigation](#navigation)
+  - [插件管理](#插件管理)
+  - [代码片段](#代码片段)
+  - [状态栏](#状态栏)
+  - [Surround](#surround)
+  - [Taking notes](#taking-notes)
+  - [Testing](#testing)
+  - [文本对象](#文本对象)
+  - [Tmux](#tmux)
+  - [编辑历史管理](#编辑历史管理)
+  - [版本控制](#版本控制)
+  - [Writing](#writing)
+  - [Misc](#misc)
+- [编程语言](#编程语言)
+  - [C、C++](#cc)
+  - [Clojure](#clojure)
+  - [Elixir](#elixir)
+  - [Go](#go)
+  - [HTML](#html)
+  - [Java](#java)
+  - [Javascript](#javascript)
+  - [Lua](#lua)
+  - [PHP](#php)
+  - [Python](#python)
+  - [TeX](#tex)
+  - [VimL](#viml)
 
-#### [By filetype](#by-filetype-1)
+<!-- vim-markdown-toc -->
 
-- [C and C++](#c-and-c)
-- [Clojure](#clojure)
-- [Elixir](#elixir)
-- [Go](#go)
-- [HTML](#html)
-- [Java](#java)
-- [Javascript](#javascript)
-- [Lua](#lua)
-- [PHP](#php)
-- [Python](#python)
-- [TeX](#tex)
-- [VimL](#viml)
+### 颜色主题
 
-## Colorschemes
-
-Here's a list of commonly used colorschemes:
+以下为一些比较流行的颜色主题：
 
 - [acme-colors](https://github.com/plan9-for-vimspace/acme-colors)
 - [apprentice](https://github.com/romainl/Apprentice)
@@ -69,21 +70,21 @@ Here's a list of commonly used colorschemes:
 Alternatively, generate your own colorscheme using [themer](https://github.com/mjswensen/themer)
 or [Colortemplate](https://github.com/lifepillar/vim-colortemplate).
 
-## By topic
+### 按功能分类
 
-#### Alignment
+#### 文本对齐
 
 - [tabular](https://github.com/godlygeek/tabular)
 - [vim-easy-align](https://github.com/junegunn/vim-easy-align)
 - [vim-lion](https://github.com/tommcdo/vim-lion)
 
-#### Building and linting
+#### 语法检查
 
 - [ale](https://github.com/w0rp/ale)
 - [neomake](https://github.com/neomake/neomake)
 - [syntastic](https://github.com/vim-syntastic/syntastic)
 
-#### Code completion
+#### 代码补全
 
 - [asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim)
 - [completor.vim](https://github.com/maralla/completor.vim)
@@ -100,19 +101,19 @@ or [Colortemplate](https://github.com/lifepillar/vim-colortemplate).
 - [switch.vim](https://github.com/AndrewRadev/switch.vim)
 - [vim-speeddating](https://github.com/tpope/vim-speeddating)
 
-#### Commenters
+#### 代码注释
 
 - [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
 - [tcomment_vim](https://github.com/tomtom/tcomment_vim)
 - [vim-commentary](https://github.com/tpope/vim-commentary)
 
-#### Delimiter
+#### 自动补全括号
 
 - [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 - [delimitMate](https://github.com/Raimondi/delimitMate)
 - [vim-endwise](https://github.com/tpope/vim-endwise)
 
-#### Fuzzy finders
+#### 模糊搜索
 
 - [Command-T](https://github.com/wincent/Command-T) (_requires +ruby_)
 - [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim)
@@ -121,13 +122,13 @@ or [Colortemplate](https://github.com/lifepillar/vim-colortemplate).
 - [unite.vim](https://github.com/Shougo/unite.vim)
 - [vim-fz](https://github.com/mattn/vim-fz)
 
-#### Grep tools
+#### 文本搜索
 
 - [ctrlsf.vim](https://github.com/dyng/ctrlsf.vim)
 - [ferret](https://github.com/wincent/ferret)
 - [vim-grepper](https://github.com/mhinz/vim-grepper)
 
-#### Indent
+#### 代码对齐线
 
 - [indentLine](https://github.com/Yggdroot/indentLine)
 - [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides)
@@ -144,7 +145,7 @@ or [Colortemplate](https://github.com/lifepillar/vim-colortemplate).
 
 Also see [fuzzy finders](#fuzzy-finders).
 
-#### Plugin managers
+#### 插件管理
 
 - [apt-vim](https://github.com/egalpin/apt-vim)
 - [dein.vim](https://github.com/Shougo/dein.vim)
@@ -154,14 +155,14 @@ Also see [fuzzy finders](#fuzzy-finders).
 - [vim-plug](https://github.com/junegunn/vim-plug)
 - [vundle.vim](https://github.com/VundleVim/Vundle.vim)
 
-#### Snippets
+#### 代码片段
 
 - [neosnippet.vim](https://github.com/Shougo/neosnippet.vim) (_depends on other plugins_)
 - [ultisnips](https://github.com/SirVer/ultisnips)
 - [vim-snipmate](https://github.com/garbas/vim-snipmate) (_depends on other plugins_)
 - [xptemplate](https://github.com/drmingdrmer/xptemplate)
 
-#### Statusline
+#### 状态栏
 
 - [lightline.vim](https://github.com/itchyny/lightline.vim)
 - [powerline](https://github.com/powerline/powerline)
@@ -187,7 +188,7 @@ Also see [fuzzy finders](#fuzzy-finders).
 
 - [vim-test](https://github.com/janko-m/vim-test)
 
-#### Text objects
+#### 文本对象
 
 - [targets.vim](https://github.com/wellle/targets.vim)
 - [vim-exchange](https://github.com/tommcdo/vim-exchange)
@@ -202,12 +203,13 @@ Also see [fuzzy finders](#fuzzy-finders).
 - [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator)
 - [vitality.vim](https://github.com/sjl/vitality.vim)
 
-#### Undo history
+#### 编辑历史管理
 
+- [vim-mundo](https://github.com/simnalamburt/vim-mundo)
 - [gundo.vim](https://github.com/sjl/gundo.vim)
 - [undotree](https://github.com/mbbill/undotree)
 
-#### Version control
+#### 版本控制
 
 - [agit.vim](https://github.com/cohama/agit.vim)
 - [committia.vim](https://github.com/rhysd/committia.vim)
@@ -223,6 +225,7 @@ Also see [fuzzy finders](#fuzzy-finders).
 - [vim-lawrencium](https://bitbucket.org/ludovicchabant/vim-lawrencium)
 - [vim-signify](https://github.com/mhinz/vim-signify)
 - [vimagit](https://github.com/jreybert/vimagit)
+- [git-messenger.vim](https://github.com/rhysd/git-messenger.vim/)
 
 #### Writing
 
@@ -258,9 +261,9 @@ Also see [fuzzy finders](#fuzzy-finders).
 - [vim-startify](https://github.com/mhinz/vim-startify)
 - [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
 
-## By filetype
+### 编程语言
 
-#### C and C++
+#### C、C++
 
 - [a.vim](https://github.com/vim-scripts/a.vim)
 - [clang_complete](https://github.com/Rip-Rip/clang_complete)
